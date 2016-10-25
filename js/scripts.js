@@ -9,6 +9,8 @@ $ (document).ready(function() {
     var newItems = [item1, item2, item3, item4];
     var newArray = [];
 
+    newItems.sort();
+
 
         $(".item1").text(newItems[0]);
         $(".item2").text(newItems[1]);
